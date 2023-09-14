@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-black scrollbarhide overflow-scroll h-screen">
+    <div className="bg-black scrollbarhide overflow-scroll h-screen w-screen">
       <img src={vector} />
       <Header />
       <Content />
